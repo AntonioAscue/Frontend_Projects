@@ -1,3 +1,17 @@
+h.menu-btn {
+  position: fixed;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.4s ease-out; }
+  h.menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #fff;
+    transition: all 0.4s ease-out; }
+
 * {
   box-sizing: border-box; }
 
